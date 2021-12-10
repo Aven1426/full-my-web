@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="style-me.css">
+    <script src="contact.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="left-side">
+            <img src="assets/Dumbways.png" />
+            <ul>
+                <li><a href="index.html" class="list-active">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <a href="">Contact Me</a>
+        </div>
+    </nav>
+
+    <div class="container-form">
+        <div style=" width: 300px; font-family:'Poppins', sans-serif;">
+            <form>
+                <div style="margin-bottom: 15px; text-align: left;">
+                    <label for="input-name">Name</label>
+                    <input id="input-name" style=" width: 100%; margin-top: 7px; padding: 10px;  border-radius: 5px; background-color:rgb(231, 231, 231) ; border: 0; box-sizing: border-box;"/>
+                </div>
+
+                <div style="margin-bottom: 15px; text-align: left;">
+                    <label for="input-email">Email</label>
+                    <input id="input-email" style="width: 100%; margin-top: 7px; padding: 10px;  border-radius: 5px; background-color:rgb(231, 231, 231) ; border: 0; box-sizing: border-box;"/>
+                </div>
+
+                <div style="margin-bottom: 15px; text-align: left;">
+                    <label for="input-phone">Phone Number</label>
+                    <input id="input-phone" style="width: 100%; margin-top: 7px; padding: 10px;  border-radius: 5px; background-color:rgb(231, 231, 231) ; border: 0; box-sizing: border-box;"/>
+                </div>
+
+                <div style="margin-bottom: 15px; text-align: left;">
+                    <label for="input-subject">Subject</label>
+                        <select id="input-subject" style="width: 100%; margin-top: 7px; padding: 10px;  border-radius: 5px; background-color:rgb(231, 231, 231) ; border: 0; box-sizing: border-box;" >
+                            <option>Software Engineer</option>
+                            <option>Web Developer</option>
+                            <option>Data Science</option>
+                        </select>
+                </div>
+
+                <div style="margin-bottom: 15px; text-align: left;">
+                    <label for="input-msg">Your Message</label>
+                    <textarea id="input-msg" style="width: 100%; margin-top: 7px; padding: 10px;  border-radius: 5px; background-color:rgb(231, 231, 231) ; border: 0; box-sizing: border-box;"></textarea>
+                    <button type="button"  
+                            style="margin-top: 15px; 
+                            background-color:rgb(255, 17, 17); 
+                            color: white; padding: 5px; 
+                            border-radius: 5px; 
+                            width: 100px;" 
+                            onclick="submitForm()">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

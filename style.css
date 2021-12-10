@@ -1,0 +1,170 @@
+* {
+    font-family: 'Poppins', sans-serif ;
+}
+
+body {
+    margin: 0;
+    
+}
+
+.wrapper {
+    width: 1366px;
+}
+nav {
+    background-color: #e0e0e0;
+    display: flex ;
+    font-weight: bolder;
+    height: 8vh;
+}
+
+nav .left-side {
+    flex: 50%;
+    align-items: center;
+    display: flex;
+    padding-left: 90px;
+}
+
+nav .left-side ul {
+    display: inline;
+    
+}
+
+nav .left-side ul li {
+    display: inline;
+    margin-left: 40px;
+    
+}
+
+nav .left-side a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .left-side .list-active {
+    color: rgb(255, 149, 61);
+}
+
+nav .right-side {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 90px ;
+}
+
+nav .right-side a {
+    background-color: rgb(255, 149, 61);
+    text-decoration: 0;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+/* Card Personal */
+
+.container-card {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container-card-and-content {
+    display: flex;
+    width: 100%;
+}
+
+.personal-card {
+    border: 1px solid grey; 
+    border-radius: 10px; 
+    margin: 100px 30px 150px 150px; 
+    padding: 10px; 
+    width: 300px; 
+    box-shadow: 0 0 20px rgb(23, 6, 255); 
+    background: white;
+    flex: 30%;
+}
+
+.personal-card img {
+    width: 100%; 
+    border-radius: 10px; 
+    box-shadow: 0 0 15px grey;
+}
+
+.personal-card h2 {
+    text-align: left; 
+    font-size: 15px;
+}
+
+.personal-card p {
+    text-align: left; 
+    color: #303952;font-size: 20px;
+    font-size: 15px;
+}
+
+.personal-card table {
+    border-collapse: collapse; 
+    width: 100%;
+}
+
+.personal-card th {
+    text-align: center; 
+    padding: 5px; 
+    font-size: 20px; 
+    font-family: 'courier', sans-serif; 
+    font-weight: bold;
+} 
+
+.personal-card td {
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.right-content {
+    flex: 70%;
+    margin-top: 5%;
+    margin-right: 30px;
+    
+}
+
+.right-content p {
+    color: grey;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.container-ability {
+    display: flex;
+}
+
+.container-ability div {
+    padding-right: 20px;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-me div {
+    padding-right: 20px;
+    
+}
+
+.logo-me {
+    display: inline;
+}
+
+.logo-me a {
+    text-decoration: none;
+}
+
+
+
+
+
